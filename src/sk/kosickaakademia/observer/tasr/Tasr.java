@@ -18,6 +18,12 @@ public class Tasr {
         return message;
     }
 
+    /**This method notifies observers based on message priority:
+     *  1 - all observers
+     *  2 - email, facebook and fax
+     *  3 - email and facebook
+     *  4 - only email
+     * */
     public void notifyObserversByPriority(int priority){
         switch (priority){
             case 1 -> observers.forEach(Observer::update);
