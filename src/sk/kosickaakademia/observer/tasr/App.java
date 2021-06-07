@@ -8,7 +8,12 @@ import sk.kosickaakademia.observer.tasr.observers.SMSGate;
 public class App {
     public static void main(String[] args) {
         Tasr tasr = new Tasr();
-        Message m1 = new Message("Canada won",2);
+        Message m1 = null;
+        try {
+            m1 = new Message("Canada won",2);
+        } catch (InvalidPriorityValue invalidPriorityValue) {
+            invalidPriorityValue.printStackTrace();
+        }
 
         new EmailGate(tasr);
         new FacebookGate(tasr);
