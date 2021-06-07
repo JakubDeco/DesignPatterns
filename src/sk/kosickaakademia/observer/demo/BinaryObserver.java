@@ -1,4 +1,4 @@
-package sk.kosickaakademia.observer;
+package sk.kosickaakademia.observer.demo;
 
 public class BinaryObserver extends Observer {
 

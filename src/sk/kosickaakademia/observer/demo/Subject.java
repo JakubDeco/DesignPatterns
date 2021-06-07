@@ -1,4 +1,4 @@
-package sk.kosickaakademia.observer;
+package sk.kosickaakademia.observer.demo;
 
 import java.util.ArrayList;
 import java.util.List;

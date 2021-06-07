@@ -1,4 +1,4 @@
-package sk.kosickaakademia.observer;
+package sk.kosickaakademia.observer.demo;
 
 public class Demo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package sk.kosickaakademia.observer;
+package sk.kosickaakademia.observer.demo;
 
 public abstract class Observer {
     protected Subject subject;
